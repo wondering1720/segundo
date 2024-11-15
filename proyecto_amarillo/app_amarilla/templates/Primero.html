@@ -1,0 +1,122 @@
+{% extends "template.html" %}
+{% load static %}
+{% block title %} INICIO {% endblock %}
+
+{% block extra_css %}
+{% endblock %}
+
+{% block contenido1 %}
+
+<!-- Banner -->
+<section id="banner">
+	<div class="content">
+		<header>
+			<h1>Hola, Somos ElectroLab</h1>
+			<p>El laboratorio de tus gadgets.</p>
+		</header>
+		<p>En ElectroLab, somos tu aliado en tecnología y electrónica, proporcionando una amplia gama de accesorios 
+			y gadgets desde audífonos y cargadores hasta equipos avanzados 
+			y dispositivos inteligentes, ofrecemos productos de calidad pensados para todos los niveles de experiencia. 
+			Nos apasiona la tecnología, y cada artículo en nuestra tienda está para satisfacer tanto 
+			necesidades prácticas como el deseo de innovación.</p>
+	</div>
+	<span class="image object">
+		<img src="{% static 'images/home.webp' %}" alt="" />
+	</span>
+</section>
+
+<!-- Section -->
+<section>
+	<header class="major">
+		<h2>¿Por qué Elegir ElectroLab?</h2>
+	</header>
+	<div class="features">
+		<article>
+			<span class="icon fa-gem"></span>
+			<div class="content">
+				<h3>Prestigio y Confianza</h3>
+				<p>ElectroLab se respalda en su compromiso con la satisfacción de cada cliente. Nos esforzamos por brindar una experiencia de compra confiable y un servicio de atención destacado.</p>
+			</div>
+		</article>
+		<article>
+			<span class="icon solid fa-paper-plane"></span>
+			<div class="content">
+				<h3>Calidad Garantizada</h3>
+				<p>Nos enfocamos en productos de alta durabilidad y rendimiento, seleccionados por su excelente calidad para ofrecerte solo lo mejor en electrónica.</p>
+			</div>
+		</article>
+		<article>
+			<span class="icon solid fa-rocket"></span>
+			<div class="content">
+				<h3>Innovación Constante</h3>
+				<p>Nos mantenemos a la vanguardia, ofreciendo los gadgets y accesorios más avanzados para que siempre encuentres lo último en tecnología.</p>
+			</div>
+		</article>
+		<article>
+			<span class="icon solid fa-signal"></span>
+			<div class="content">
+				<h3>Seguridad en Cada Compra</h3>
+				<p>Contamos con sistemas de pago seguros y procesos de envío protegidos para que recibas tu pedido con total tranquilidad.</p>
+			</div>
+		</article>
+	</div>
+</section>
+
+<!-- Section -->
+<section>
+	<header class="major">
+		<h2>Productos</h2>
+	</header>
+	<div class="posts">
+		<article>
+			<a href="#" class="image"><img src="{% static 'images/audifonos_blancos.png' %}" alt="" /></a>
+			<h3>Audífonos Bluetooth con Cancelación de Ruido</h3>
+			<p>Para disfrutar de un sonido inmersivo sin distracciones.	</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="{% static 'images/cargador_inalambricos.webp' %}" alt="" /></a>
+			<h3>Cargadores Inalámbricos Rápidos</h3>
+			<p>Compatibles con la mayoría de los dispositivos modernos para una carga rápida y sin cables.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="{% static 'images/Amartwatch.jpg' %}" alt="" /></a>
+			<h3>Smartwatch</h3>
+			<p>Ideal para monitorear la salud, recibir notificaciones y organizar tu día a día.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="{% static 'images/teclado_mecanico.webp' %}" alt="" /></a>
+			<h3>Teclado Mecánico RGB</h3>
+			<p>Perfecto para quienes buscan precisión y estilo, ideal para gamers y profesionales.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="{% static 'images/power_bank.webp' %}" alt="" /></a>
+			<h3>Power Banks de Alta Capacidad</h3>
+			<p>Con tecnología de carga rápida para mantener dispositivos cargados en todo momento.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+		<article>
+			<a href="#" class="image"><img src="{% static 'images/camara_de_seguridad.webp' %}" alt="" /></a>
+			<h3>Cámaras de Seguridad Inteligentes</h3>
+			<p>Controlables desde el celular, perfectas para hogares y oficinas que requieren monitoreo constante.</p>
+			<ul class="actions">
+				<li><a href="#" class="button">More</a></li>
+			</ul>
+		</article>
+	</div>
+</section>
+
+{% endblock %}

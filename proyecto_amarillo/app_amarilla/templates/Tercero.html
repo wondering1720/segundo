@@ -1,0 +1,53 @@
+{% extends "template.html" %}
+{% load static %}
+{% block title %} INICIO {% endblock %}
+
+{% block extra_css %}
+{% endblock %}
+
+{% block contenido1 %}
+<!-- Content -->
+<section>
+	<header class="main">
+		<h1>Ofertas</h1>
+	</header>
+
+	<!-- Elements -->
+		<div class="row gtr-200">
+			<div class="col-3 col-6-medium">
+				<!-- Form -->
+					<span class="image fit"><img src="{% static 'images/1.webp' %}" alt="" /></span>
+					<form method="post" action="#">
+						<p>	Laptop HP 245 G9 14'' Ryzen 3 3250U W11H 256GB / 8GB</p>
+						<input type="submit" value="Send Message" class="primary" />
+					</form>
+			</div>
+			<div class="col-3 col-6-medium">
+				<!-- Form -->
+					<span class="image fit"><img src="{% static 'images/2.webp' %}" alt="" /></span>
+					<form method="post" action="#">
+						<p>Laptop HP 240 G8 Intel Core i5 1135G7 RAM 16GB SSD 1TB</p>
+						<input type="submit" value="Send Message" class="primary" />
+					</form>
+			</div>
+			<div class="col-3 col-6-medium">
+				<!-- Form -->
+					<span class="image fit"><img src="{% static 'images/3.webp' %}" alt="" /></span>
+					<form method="post" action="#">
+						<p>HP Impresora multifuncional inyección térmica DeskJet Ink</p>
+						<input type="submit" value="Send Message" class="primary" />
+					</form>
+			</div>
+			<div class="col-3 col-6-medium">
+				<!-- Form -->
+					<span class="image fit"><img src="{% static 'images/4.webp' %}" alt="" /></span>
+					<form method="post" action="#">
+						<p>Brother Multifuncional DCP-T520W InkBenefit Tank Negro</p>
+						<input type="submit" value="Send Message" class="primary" />
+					</form>
+			</div>
+		</div>
+
+</section>
+
+{% endblock %}

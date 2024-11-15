@@ -1,0 +1,385 @@
+{% extends "template2.html" %}
+{% load static %}
+{% block title %} ADMIN {% endblock %}
+
+{% block extra_css %}
+{% endblock %}
+
+{% block contenido1 %}
+<div class="table-wrapper">
+    <table class="alt">
+        <thead>
+            <tr>
+                <th>ID de Venta</th>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Precio Unitario</th>
+                <th>Total</th>
+                <th>Fecha de Venta</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>V001</td>
+                <td>Producto A</td>
+                <td>3</td>
+                <td>$20.00</td>
+                <td>$60.00</td>
+                <td>2024-11-12</td>
+            </tr>
+            <tr>
+                <td>V002</td>
+                <td>Producto B</td>
+                <td>5</td>
+                <td>$15.00</td>
+                <td>$75.00</td>
+                <td>2024-11-12</td>
+            </tr>
+            <tr>
+                <td>V003</td>
+                <td>Producto C</td>
+                <td>2</td>
+                <td>$45.00</td>
+                <td>$90.00</td>
+                <td>2024-11-11</td>
+            </tr>
+            <tr>
+                <td>V004</td>
+                <td>Producto D</td>
+                <td>1</td>
+                <td>$120.00</td>
+                <td>$120.00</td>
+                <td>2024-11-10</td>
+            </tr>
+            <tr>
+                <td>V005</td>
+                <td>Producto E</td>
+                <td>4</td>
+                <td>$10.00</td>
+                <td>$40.00</td>
+                <td>2024-11-09</td>
+            </tr>
+            <tr>
+                <td>V006</td>
+                <td>Producto F</td>
+                <td>6</td>
+                <td>$8.00</td>
+                <td>$48.00</td>
+                <td>2024-11-08</td>
+            </tr>
+            <tr>
+                <td>V007</td>
+                <td>Producto G</td>
+                <td>2</td>
+                <td>$75.00</td>
+                <td>$150.00</td>
+                <td>2024-11-08</td>
+            </tr>
+            <tr>
+                <td>V008</td>
+                <td>Producto H</td>
+                <td>7</td>
+                <td>$12.00</td>
+                <td>$84.00</td>
+                <td>2024-11-07</td>
+            </tr>
+            <tr>
+                <td>V009</td>
+                <td>Producto I</td>
+                <td>1</td>
+                <td>$200.00</td>
+                <td>$200.00</td>
+                <td>2024-11-07</td>
+            </tr>
+            <tr>
+                <td>V010</td>
+                <td>Producto J</td>
+                <td>3</td>
+                <td>$30.00</td>
+                <td>$90.00</td>
+                <td>2024-11-06</td>
+            </tr>
+            <tr>
+                <td>V011</td>
+                <td>Producto K</td>
+                <td>5</td>
+                <td>$18.00</td>
+                <td>$90.00</td>
+                <td>2024-11-06</td>
+            </tr>
+            <tr>
+                <td>V012</td>
+                <td>Producto L</td>
+                <td>10</td>
+                <td>$5.00</td>
+                <td>$50.00</td>
+                <td>2024-11-05</td>
+            </tr>
+            <tr>
+                <td>V013</td>
+                <td>Producto M</td>
+                <td>4</td>
+                <td>$60.00</td>
+                <td>$240.00</td>
+                <td>2024-11-05</td>
+            </tr>
+            <tr>
+                <td>V014</td>
+                <td>Producto N</td>
+                <td>8</td>
+                <td>$10.00</td>
+                <td>$80.00</td>
+                <td>2024-11-04</td>
+            </tr>
+            <tr>
+                <td>V015</td>
+                <td>Producto O</td>
+                <td>3</td>
+                <td>$55.00</td>
+                <td>$165.00</td>
+                <td>2024-11-04</td>
+            </tr>
+            <tr>
+                <td>V001</td>
+                <td>Producto A</td>
+                <td>3</td>
+                <td>$20.00</td>
+                <td>$60.00</td>
+                <td>2024-11-12</td>
+            </tr>
+            <tr>
+                <td>V002</td>
+                <td>Producto B</td>
+                <td>5</td>
+                <td>$15.00</td>
+                <td>$75.00</td>
+                <td>2024-11-12</td>
+            </tr>
+            <tr>
+                <td>V003</td>
+                <td>Producto C</td>
+                <td>2</td>
+                <td>$45.00</td>
+                <td>$90.00</td>
+                <td>2024-11-11</td>
+            </tr>
+            <tr>
+                <td>V004</td>
+                <td>Producto D</td>
+                <td>1</td>
+                <td>$120.00</td>
+                <td>$120.00</td>
+                <td>2024-11-10</td>
+            </tr>
+            <tr>
+                <td>V005</td>
+                <td>Producto E</td>
+                <td>4</td>
+                <td>$10.00</td>
+                <td>$40.00</td>
+                <td>2024-11-09</td>
+            </tr>
+            <tr>
+                <td>V006</td>
+                <td>Producto F</td>
+                <td>6</td>
+                <td>$8.00</td>
+                <td>$48.00</td>
+                <td>2024-11-08</td>
+            </tr>
+            <tr>
+                <td>V007</td>
+                <td>Producto G</td>
+                <td>2</td>
+                <td>$75.00</td>
+                <td>$150.00</td>
+                <td>2024-11-08</td>
+            </tr>
+            <tr>
+                <td>V008</td>
+                <td>Producto H</td>
+                <td>7</td>
+                <td>$12.00</td>
+                <td>$84.00</td>
+                <td>2024-11-07</td>
+            </tr>
+            <tr>
+                <td>V009</td>
+                <td>Producto I</td>
+                <td>1</td>
+                <td>$200.00</td>
+                <td>$200.00</td>
+                <td>2024-11-07</td>
+            </tr>
+            <tr>
+                <td>V010</td>
+                <td>Producto J</td>
+                <td>3</td>
+                <td>$30.00</td>
+                <td>$90.00</td>
+                <td>2024-11-06</td>
+            </tr>
+            <tr>
+                <td>V011</td>
+                <td>Producto K</td>
+                <td>5</td>
+                <td>$18.00</td>
+                <td>$90.00</td>
+                <td>2024-11-06</td>
+            </tr>
+            <tr>
+                <td>V012</td>
+                <td>Producto L</td>
+                <td>10</td>
+                <td>$5.00</td>
+                <td>$50.00</td>
+                <td>2024-11-05</td>
+            </tr>
+            <tr>
+                <td>V013</td>
+                <td>Producto M</td>
+                <td>4</td>
+                <td>$60.00</td>
+                <td>$240.00</td>
+                <td>2024-11-05</td>
+            </tr>
+            <tr>
+                <td>V014</td>
+                <td>Producto N</td>
+                <td>8</td>
+                <td>$10.00</td>
+                <td>$80.00</td>
+                <td>2024-11-04</td>
+            </tr>
+            <tr>
+                <td>V015</td>
+                <td>Producto O</td>
+                <td>3</td>
+                <td>$55.00</td>
+                <td>$165.00</td>
+                <td>2024-11-04</td>
+            </tr>
+            <tr>
+                <td>V001</td>
+                <td>Producto A</td>
+                <td>3</td>
+                <td>$20.00</td>
+                <td>$60.00</td>
+                <td>2024-11-12</td>
+            </tr>
+            <tr>
+                <td>V002</td>
+                <td>Producto B</td>
+                <td>5</td>
+                <td>$15.00</td>
+                <td>$75.00</td>
+                <td>2024-11-12</td>
+            </tr>
+            <tr>
+                <td>V003</td>
+                <td>Producto C</td>
+                <td>2</td>
+                <td>$45.00</td>
+                <td>$90.00</td>
+                <td>2024-11-11</td>
+            </tr>
+            <tr>
+                <td>V004</td>
+                <td>Producto D</td>
+                <td>1</td>
+                <td>$120.00</td>
+                <td>$120.00</td>
+                <td>2024-11-10</td>
+            </tr>
+            <tr>
+                <td>V005</td>
+                <td>Producto E</td>
+                <td>4</td>
+                <td>$10.00</td>
+                <td>$40.00</td>
+                <td>2024-11-09</td>
+            </tr>
+            <tr>
+                <td>V006</td>
+                <td>Producto F</td>
+                <td>6</td>
+                <td>$8.00</td>
+                <td>$48.00</td>
+                <td>2024-11-08</td>
+            </tr>
+            <tr>
+                <td>V007</td>
+                <td>Producto G</td>
+                <td>2</td>
+                <td>$75.00</td>
+                <td>$150.00</td>
+                <td>2024-11-08</td>
+            </tr>
+            <tr>
+                <td>V008</td>
+                <td>Producto H</td>
+                <td>7</td>
+                <td>$12.00</td>
+                <td>$84.00</td>
+                <td>2024-11-07</td>
+            </tr>
+            <tr>
+                <td>V009</td>
+                <td>Producto I</td>
+                <td>1</td>
+                <td>$200.00</td>
+                <td>$200.00</td>
+                <td>2024-11-07</td>
+            </tr>
+            <tr>
+                <td>V010</td>
+                <td>Producto J</td>
+                <td>3</td>
+                <td>$30.00</td>
+                <td>$90.00</td>
+                <td>2024-11-06</td>
+            </tr>
+            <tr>
+                <td>V011</td>
+                <td>Producto K</td>
+                <td>5</td>
+                <td>$18.00</td>
+                <td>$90.00</td>
+                <td>2024-11-06</td>
+            </tr>
+            <tr>
+                <td>V012</td>
+                <td>Producto L</td>
+                <td>10</td>
+                <td>$5.00</td>
+                <td>$50.00</td>
+                <td>2024-11-05</td>
+            </tr>
+            <tr>
+                <td>V013</td>
+                <td>Producto M</td>
+                <td>4</td>
+                <td>$60.00</td>
+                <td>$240.00</td>
+                <td>2024-11-05</td>
+            </tr>
+            <tr>
+                <td>V014</td>
+                <td>Producto N</td>
+                <td>8</td>
+                <td>$10.00</td>
+                <td>$80.00</td>
+                <td>2024-11-04</td>
+            </tr>
+            <tr>
+                <td>V015</td>
+                <td>Producto O</td>
+                <td>3</td>
+                <td>$55.00</td>
+                <td>$165.00</td>
+                <td>2024-11-04</td>
+            </tr>
+        </tbody>
+    </table>     
+</div>
+{% endblock %}

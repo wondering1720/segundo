@@ -1,0 +1,20 @@
+{% extends "template2.html" %}
+{% load static %}
+{% block title %} ADMIN {% endblock %}
+
+{% block extra_css %}
+{% endblock %}
+
+{% block contenido1 %}
+<header class="main">
+    <h1>Analisis</h1>
+</header>
+
+<span class="image main"><img src="{% static 'images/grafica1.png' %}" alt="" /></span>
+
+<p>Donec eget exm pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
+
+<span class="image main"><img src="{% static 'images/grafica2.png' %}" alt="" /></span>
+
+<p>Donec eget exm pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
+{% endblock %}

@@ -1,0 +1,79 @@
+{% extends "template2.html" %}
+{% load static %}
+{% block title %} ADMIN {% endblock %}
+
+{% block extra_css %}
+{% endblock %}
+
+{% block contenido1 %}
+	<!-- Elements -->
+    <h2 id="elements">Toma de decisiones</h2>
+    <div class="row gtr-200">
+        <div class="col-6 col-12-medium">
+
+                <h4>Opiniones</h4>
+                <dl>
+                    <dt>Opinion 1</dt>
+                    <dd>
+                        <p>Es esencial invertir en tecnología y capacitar a nuestros empleados para que puedan adaptarse a nuevas herramientas y tendencias del mercado. La transformación digital es clave para asegurar nuestra competitividad en el futuro.</p>
+                    </dd>
+                    <dt>Opinion 2</dt>
+                    <dd>
+                        <p>Debemos explorar nuevos mercados y diversificar nuestra base de clientes. Apostar por la expansión a regiones con alto potencial o lanzar nuevos productos en línea con las tendencias puede ser una buena estrategia para incrementar ingresos.</p>
+                    </dd>
+                    <dt>Opinion 3</dt>
+                    <dd>
+                        <p>Nuestro futuro debe estar alineado con prácticas sostenibles. Invertir en iniciativas de responsabilidad social y sostenibilidad no solo mejora nuestra imagen, sino que también nos abre oportunidades en un mercado que cada vez valora más la ética empresarial.</p>
+                    </dd>
+                </dl>
+        </div>
+        <div class="col-6 col-12-medium">
+
+            <!-- Form -->
+                <h3>Formulario</h3>
+
+                <form method="post" action="#">
+                    <div class="row gtr-uniform">
+                        <div class="col-6 col-12-xsmall">
+                            <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+                        </div>
+                        <div class="col-6 col-12-xsmall">
+                            <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+                        </div>
+                        <!-- Break -->
+                        <div class="col-12">
+                            <select name="demo-category" id="demo-category">
+                                <option value="">- Category -</option>
+                                <option value="1">Manofactura</option>
+                                <option value="1">Venta</option>
+                                <option value="1">Administracion</option>
+                                <option value="1">Recursos humanos</option>
+                            </select>
+                        </div>
+                        <!-- Break -->
+                        <div class="col-6 col-12-small">
+                            <input type="checkbox" id="demo-copy" name="demo-copy">
+                            <label for="demo-copy">Email me a copy</label>
+                        </div>
+                        <div class="col-6 col-12-small">
+                            <input type="checkbox" id="demo-human" name="demo-human" checked>
+                            <label for="demo-human">I am a human</label>
+                        </div>
+                        <!-- Break -->
+                        <div class="col-12">
+                            <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+                        </div>
+                        <!-- Break -->
+                        <div class="col-12">
+                            <ul class="actions">
+                                <li><input type="submit" value="Send Message" class="primary" /></li>
+                                <li><input type="reset" value="Reset" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+        </div>
+    </div>
+    <h4>Fit</h4>
+    <span class="image fit"><img src="{% static 'images/grafica.png' %}" alt="" /></span>
+{% endblock %}
